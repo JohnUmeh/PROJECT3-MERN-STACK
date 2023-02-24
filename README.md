@@ -173,7 +173,15 @@ Save and exit with `esc`, :wq and hit enter
 
 ### **Installing Models**
 
+Since we are using mongodb for this application, we create models for it. Models makes javascript based applications interactive. 
 
+To create this, we will install mongoose; 
+
+Change directory to the Todo directory with `cd ..`
+
+Use `npm install mongoose` 
+
+Next, create models directory with `touch model`
 
 
 
