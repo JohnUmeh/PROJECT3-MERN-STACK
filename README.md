@@ -5,27 +5,27 @@ IMPLIMENTING A WEB SOLUTION BASED ON MERN STACK ON AWS WEB SERVER
 
 MERN stack is a web development framework. It consists of MongoDB, ExpressJS, ReactJS, and NodeJS as its working components. These components are used in developing a web application when using MERN stack as follows:
 
-    **MongoDB**: A document-oriented, No-SQL database used to store the application data.
+   **MongoDB**: A document-oriented, No-SQL database used to store the application data.
 
-    **NodeJS**: The JavaScript runtime environment. It is used to run JavaScript on a machine rather than in a browser.
+   **NodeJS**: The JavaScript runtime environment. It is used to run JavaScript on a machine rather than in a browser.
 
-    **ExpressJS**: A framework layered on top of NodeJS, used to build the backend of a site using NodeJS functions and structures.
+   **ExpressJS**: A framework layered on top of NodeJS, used to build the backend of a site using NodeJS functions and structures.
 
-    **ReactJS**: A library created by Facebook. It is used to build UI components that create the user interface of the single page web application
+   **ReactJS**: A library created by Facebook. It is used to build UI components that create the user interface of the single page web application
     
          
-    ## **Create and Ec2 instance**
+ ## **Creating an Ec2 instance**
     
-    We start the project by creating an ec2 instance on aws server and saving the keypair with type .pem
+   We start the project by creating an ec2 instance on aws server and saving the keypair with type .pem
     
-    ![Screenshot from 2023-02-24 04-48-40](https://user-images.githubusercontent.com/77943759/221087378-3cb7b049-73e9-429b-81a8-3aa408328bc0.png)
+   ![Screenshot from 2023-02-24 04-48-40](https://user-images.githubusercontent.com/77943759/221087378-3cb7b049-73e9-429b-81a8-3aa408328bc0.png)
     
-    After this, on your windows terminal, cd into the directory containing your .pem file and connect to the instance by running:
+   After this, on your windows terminal, cd into the directory containing your .pem file and connect to the instance by running:
     
-    `ssh -i <private_keyfile.pem> username@ip-address`
+  `ssh -i <private_keyfile.pem> username@ip-address`
     
 
-  # **BACKEND CONFIGURATION**
+ # **BACKEND CONFIGURATION**
   
   First, we run the commands `sudo apt update` and `sudo apt upgrade`
   
