@@ -106,7 +106,7 @@ console.log(`Server running on port ${port}`)
 });
 ```
 
-Use :w to save in vim and use :qa to exit vim
+Use `esc`, :wq to save and exit vim
 
 Next, we test if the server is working correctly by running the command `node index.js`
 
